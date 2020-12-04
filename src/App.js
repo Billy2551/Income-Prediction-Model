@@ -30,14 +30,14 @@ function App() {
         <select id='school'>
         <option selected value="None"></option>
           <option value="berkeley">University of California, Berkeley</option>
-          <option value="stanford">Stanford</option>
+          <option value="stanford">Stanford University</option>
           <option value="mit">Massachusetts Institute of Technology</option>
           <option value="cmu">Carnegie Mellon University</option>
           <option value="usc">University of Southern California</option>
           <option value="col">Columbia University</option>
           <option value="sjsu">San Jose State University</option>
           <option value="ucla">University of California, Los Angeles</option>
-          <option value="harv">Harvard</option>
+          <option value="harv">Harvard University</option>
           <option value="uofm">University of Michigan</option>
           <option value="corn">Cornell University</option>
           <option value="scu">Santa Clara University</option>
@@ -73,8 +73,35 @@ function App() {
         </select>
         <br></br>
         <br></br>
-        Major:
-        <select id='major'>
+        Major 1:
+        <select id='major1'>
+        <option selected value="None"></option>
+          <option value="cs">Computer Science</option>
+          <option value="ee">Electrical Engineering</option>
+          <option value="ba">Business Administration</option>
+          <option value="stat">Statistics</option>
+          <option value="econ">Economics</option>
+          <option value="fineng">Financial Engineering</option>
+          <option value="eecs">Electrical Engineering and Computer Science</option>
+          <option value="fin">Finance</option>
+          <option value="ds">Data Science</option>
+          <option value="ecs">Electrical and Computer Engineering</option>
+          <option value="ph">Physics</option>
+          <option value="or">Operations Research</option>
+          <option value="am">Applied Mathematics</option>
+          <option value="meche">Mechanical Engineering</option>
+          <option value="indeng">Industrial Engineering</option>
+          <option value="psych">Psychology</option>
+          <option value="bio">Bioengineering</option>
+          <option value="cheme">Chemical Engineering</option>
+          <option value="hci">Human Computer Interaction</option>
+          <option value="bioin">Bioinformatics</option>
+          <option value="other">Other</option>
+        </select>
+        <br></br>
+        <br></br>
+        Major 2:
+        <select id='major2'>
         <option selected value="None"></option>
           <option value="cs">Computer Science</option>
           <option value="ee">Electrical Engineering</option>
@@ -109,7 +136,7 @@ function App() {
         </select>
         <br></br>
         <br></br>
-        Graduation Year:
+        Gender:
         <select>
         <option selected value="None"></option>
           <option value="male">Male</option>
@@ -118,12 +145,40 @@ function App() {
         </select>
         <br></br>
         <br></br>
-        Gender:
+        Graduation Year:
         <select>
         <option selected value="None"></option>
-          <option value="male">1970</option>
-          <option value="female">1971</option>
-          <option value="other">1972</option>
+          <option value="male">2030</option>
+          <option value="female">2029</option>
+          <option value="other">2028</option>
+          <option value="male">2027</option>
+          <option value="female">2026</option>
+          <option value="other">2025</option>
+          <option value="male">2024</option>
+          <option value="female">2023</option>
+          <option value="other">2022</option>
+          <option value="male">2021</option>
+          <option value="female">2020</option>
+          <option value="other">2019</option>
+          <option value="male">2018</option>
+          <option value="female">2017</option>
+          <option value="other">2016</option>
+          <option value="male">2015</option>
+          <option value="female">2014</option>
+          <option value="other">2013</option>
+          <option value="male">2012</option>
+          <option value="female">2011</option>
+          <option value="other">2010</option>
+          <option value="male">2009</option>
+          <option value="female">2008</option>
+          <option value="other">2007</option>
+          <option value="male">2006</option>
+          <option value="female">2005</option>
+          <option value="other">2004</option>
+          <option value="male">2003</option>
+          <option value="female">2002</option>
+          <option value="other">2001</option>
+          <option value="male">2000</option>
         </select>
         <br></br>
         <br></br>

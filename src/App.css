@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #9AAACA;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #fefbd8;
+  background-color: #6495ED;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +27,7 @@
   color: green;
 }
 
-div {
-  background: rgba(0, 200, 0, 0.3);
-}
+
 
 .App-link {
   color: #61dafb;

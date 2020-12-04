@@ -50,8 +50,8 @@ export default class FetchIncome extends React.Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                {this.state.badInput ? <div>Please make sure to fill in all fields before submitting</div>:
-                    this.state.loading ? <div>Please enter your information</div> : 
+                {this.state.badInput ? <div><b>Please make sure to fill in all fields before submitting</b></div>:
+                    this.state.loading ? <div><b>Please enter your information</b></div> : 
                     <div>
                         {this.state.range.major}
                         {this.state.range.location}
